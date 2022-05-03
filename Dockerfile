@@ -17,7 +17,7 @@ RUN apt-get update \
 RUN cpanm Term::Animation -v \
     && wget -nv --no-check-certificate \
     https://raw.githubusercontent.com/cmatsuoka/asciiquarium/master/asciiquarium \
-    && chomd +x asciiquarium \
+    && chmod +x asciiquarium \
     && mv ./asciiquarium /usr/local/bin/
 
 ENTRYPOINT ["asciiquarium"]
