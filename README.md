@@ -18,3 +18,11 @@ docker run --rm -it aqua
 ```sh
 docker run --rm -it ghcr.io/eggplants/asciiquarium-docker
 ```
+
+## TIPS
+
+| key | description    |
+| :-: | :------------- |
+| `q` | leave aquarium |
+| `r` | redraw screen  |
+| `p` | pause screen   |
