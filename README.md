@@ -22,7 +22,7 @@ docker run --rm -it ghcr.io/eggplants/asciiquarium-docker
 ## TIPS
 
 | key | description    |
-| :-: | :------------- |
-| `q` | leave aquarium |
+| :-: | :------------: |
+| `q` | quit aquarium  |
 | `r` | redraw screen  |
 | `p` | pause screen   |
